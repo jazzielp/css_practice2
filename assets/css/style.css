@@ -37,7 +37,7 @@ html{
 
 body{
     display: grid;
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: 1fr 375px 1fr;
     justify-items: center;
 }
 
@@ -46,12 +46,12 @@ body{
     height: 375px;
     padding: 30px 0;
     padding-bottom: 40px;
-    margin-top: 40px;
+    
     color: var(--very-light-gray);
 }
 
 .car--1{
-    
+    margin-top: 40px;
     border-radius: 10px 10px 0 0;
     background-color: var(--bright-orange);
     
@@ -59,9 +59,20 @@ body{
 
 .car--2{
     
-    margin-top: 0;
+    
     padding-bottom: 0;
     background-color: var(--dark-cyan);
+    
+    
+}
+
+.car--3{
+    
+    
+    padding-bottom: 0;
+    margin-bottom: 40px ;
+    border-radius: 0 0 10px 10px;
+    background-color: var(--very-dark-cyan);
     
     
 }
@@ -106,6 +117,10 @@ body{
 
 .btn--car-2{
     color: var(--dark-cyan);
+}
+
+.btn--car-3{
+    color: var(--very-dark-cyan);
 }
 
 
