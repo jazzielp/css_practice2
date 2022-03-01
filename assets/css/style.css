@@ -43,7 +43,7 @@ body{
 
 .car{
     width: 85%;
-    height: auto;
+    height: 375px;
     padding: 30px 0;
     padding-bottom: 40px;
     margin-top: 40px;
@@ -56,6 +56,16 @@ body{
     background-color: var(--bright-orange);
     
 }
+
+.car--2{
+    
+    margin-top: 0;
+    padding-bottom: 0;
+    background-color: var(--dark-cyan);
+    
+    
+}
+
 
 .car__icon{
     margin: 0 50px;
@@ -93,4 +103,9 @@ body{
 .btn--car-1{
     color: var(--bright-orange);
 }
+
+.btn--car-2{
+    color: var(--dark-cyan);
+}
+
 
