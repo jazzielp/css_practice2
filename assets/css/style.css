@@ -42,7 +42,7 @@ body{
 .container{
     width: 85%;
     max-width: 470px;
-    min-width: 320px;
+    min-width: 370px;
     display: grid;
     margin: 30px 0;
     grid-template-rows:repeat(3, 1fr);
